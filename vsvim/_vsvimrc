@@ -1,0 +1,50 @@
+""******************************************************************
+" Created by Tao He on 8-30-2015.
+" Email: hetaoof@gmail.com
+"
+" This a vimrc file for vsvim plugin in Visual Studio.
+"******************************************************************
+
+let mapleader = ";"
+nmap <Leader>v <C-Q>
+nmap <leader>w :w!<cr>
+	
+
+nmap <Leader>f :vsc Edit.Find<CR>
+nmap <Leader>ff :vsc Edit.FindinFiles<CR>
+nmap <Leader>cs :vsc Edit.CommentSelection<CR>
+nmap <Leader>uc :vsc Edit.UncommentSelection<CR>
+
+nmap <Leader>dc :vsc Build.Compile<CR>
+nmap <Leader>cc :vsc Build.Cancel<CR>
+
+nmap <Leader>d :vsc Debug.Start<CR>
+nmap <Leader>sd :vsc Debug.StopDebugging<CR>
+
+nmap <Leader>bad :vsc Debug.DeleteAllBreakpoints<CR>
+nmap <Leader>bd :vsc Debug.DisableAllBreakpoints<CR>
+nmap <Leader>be :vsc Debug.EnableAllBreakpoints<CR>
+
+nmap <Leader>fd :vsc VAssistX.GotoImplementation<CR>
+nmap <Leader>bw :vsc View.NavigateBackward<CR>
+
+nmap <Leader>l :vsc VAssistX.ListMethodsInCurrentFile<CR>
+nmap <Leader>oc :vsc VAssistX.OpenCorrespondingFile<CR>
+nmap <Leader>of :vsc VAssistX.OpenFileInSolutionDialog<CR>
+
+nmap <Leader>fr :vsc VAssistX.FindReferences<CR>
+nmap <Leader>fs :vsc VAssistX.FindSymbolDialog<CR>
+
+nmap <Leader>c :vsc Window.CloseDocumentWindow<CR>
+nmap <Leader>fl :vsc Window.Float<CR>
+nmap <Leader>nh :vsc Window.NewHorizontalTabGroup<CR>
+nmap <Leader>nv :vsc Window.NewVerticalTabGroup<CR>
+nmap <Leader>mn :vsc Window.NextDocumentWindow<CR>
+nmap <Leader>mp :vsc Window.PreviousDocumentWindow<CR>
+
+
+ 
+
+
+
+
